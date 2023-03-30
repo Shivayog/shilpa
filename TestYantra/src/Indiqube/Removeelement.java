@@ -9,15 +9,8 @@ public class Removeelement
 		
 //		System.out.println("Enter the removing index... ");
 		
-		int index=3	;
-//		if(index>=arr.length)
-		{
-//		System.out.println("Array Index Invalid...");
-		}
-//		else
-		{
-		int [] arr1= new int[arr.length];
-		
+		int index=2	;
+		int [] arr1= new int[arr.length-1];
 		int temp=0;
 		
 		for (int i = 0; i < arr.length; i++)
@@ -27,15 +20,15 @@ public class Removeelement
 			arr1[temp]=arr[i];
 			temp++;
 	       }
-	       else
-	    	   arr1[temp]=arr[i];
+//	       else
+//	    	   arr1[temp]=arr[i];
 	    }
 //		System.out.println("=====Updated array elements are... =====");
 		for (int i = 0; i < arr.length-1; i++) 
-		{
+//		{
 			System.out.print(arr1[i]+" ");
-		}
+//		}
 	}
 }
-	}
+//	}
 		

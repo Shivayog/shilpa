@@ -10,8 +10,6 @@ public static void main(String[] args)
 	System.out.println("enter the num");
 	int n=Sc.nextInt();
 	int sum=0;
-	
-
 	while(n>9)
 	{
 		while(n!=0)

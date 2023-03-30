@@ -18,6 +18,7 @@ public class Pyramidnumber3
 				System.out.print("  ");
 			}
 			for(int k=1;k<=2*r-1;k++)
+//			for(int k=0;k<=r;k++)
 			{
 				if(r%2==0) {
 				

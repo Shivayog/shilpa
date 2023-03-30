@@ -8,12 +8,12 @@ public static void main(String[] args)
 {
 Scanner Sc=new Scanner(System.in);
 System.out.println("enter the base");
-int n=Sc.nextInt();
+int b=Sc.nextInt();
 System.out.println("enter the power");
 int p=Sc.nextInt();
-System.out.println(power(p,n));
+System.out.println(power(p,b));
 }
-public static int power(int p,int n)
+public static int power(int p,int b)
 { 
 if(p==0)
 {
@@ -21,7 +21,7 @@ if(p==0)
 }
 else
 {
-	return n*power(p-1, n);
+	return b*power(p-1, b);
 }
 }
 }

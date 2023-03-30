@@ -1,5 +1,5 @@
 package Indiqube;
-
+//add two array
 public class Addarry 
 {
 public static void main(String[] args)

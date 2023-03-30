@@ -10,16 +10,16 @@ public static void main(String[] args)
 	System.out.println("enter the number");
 	int a=sc.nextInt();
 
-int a1=a+1;
-boolean flag=false;
-int p=1;
-for(int i=1;i<=a1/2;i++)
-{
-	p=i*i;
-	if(a1==p)
+       int a1=a+1;
+      boolean flag=false;
+       int sq=1;
+      for(int i=1;i<=a1/2;i++)
+      {
+    	sq=i*i;
+	if(a1==sq)
 	{
 		flag=true;
-		
+		break;
 		
 	}
 }

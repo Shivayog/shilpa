@@ -12,14 +12,16 @@ public class Recursionfibonacci
 		return n;
 		
 		}
-		else
-		{
+//		else
+//		{
 			return fib(n-1)+fib(n-2);
 			
-		}
+//		}
 	}
 	public static void main(String[] args)
 	{	
-       System.out.println(fib(8));
+		int n=8;
+		for(int i=0;i<=n;i++)
+       System.out.println(fib(i));
 	}
 }

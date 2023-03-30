@@ -1,6 +1,7 @@
 package Indiqube;
 
 import java.util.Scanner;
+//find the prime number in array
 
 public class A7
 {
@@ -38,6 +39,7 @@ public class A7
 				
 		
 		}
+		
 	}
 }
 	

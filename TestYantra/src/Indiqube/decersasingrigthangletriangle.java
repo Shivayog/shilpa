@@ -1,6 +1,6 @@
 package Indiqube;
 
-public class P8 
+public class decersasingrigthangletriangle
 {
 public static void main(String[] args)
 {

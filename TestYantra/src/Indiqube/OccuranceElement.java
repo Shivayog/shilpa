@@ -25,7 +25,7 @@ static void count(int[]a)
 				break;
 		}
 	}
-	System.out.println(a[i]+" ");
+	System.out.print(a[i]+" ");
 	i+=(count-1);
 }
 }

@@ -27,8 +27,8 @@ public static void main(String[] args)
 	}
 	
 }
-	System.out.println(count);*/
-	
+//	System.out.println(count);*/
+//	count the vowels
 	
 		for(int i=0;i<s.length();i++)
 		{

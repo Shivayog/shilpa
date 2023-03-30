@@ -17,7 +17,7 @@ public class Neon
 		while(sqr>0)
 		{
 			int res=sqr%10;
-			sum+=res;
+			sum=sum+res;
 			sqr=sqr/10;
 		}
 		if(sum==n)

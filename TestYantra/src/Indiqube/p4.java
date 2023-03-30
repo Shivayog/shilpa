@@ -5,13 +5,13 @@ public class p4
 public static void main(String[] args)
 {
 	int n=1;
-	for(int i=1;i<=4;i++)
+	for(int r=1;r<=4;r++)
 	{
-		for(int j=1;j<=4;j++)
+		for(int c=1;c<=4;c++)
 		{
-			if(i==1||i==4|| j==1||j==4)
+			if(r==1||r==4|| c==1||c==4)
 			{
-				System.out.print(i +" ");
+				System.out.print(r +" ");
 			
 			}
 			else

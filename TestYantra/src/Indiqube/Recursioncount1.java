@@ -13,10 +13,7 @@ public class Recursioncount1
 		  System.out.println(count(n));
 		}
 		
-		
-	
-
-			public static int count(int n)
+	public static int count(int n)
 			{
 		         if(n<=1)
 		          {
