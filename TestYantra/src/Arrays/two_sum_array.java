@@ -1,21 +1,19 @@
 package Arrays;
 
-public class first_duplicate_occurance 
+public class two_sum_array 
 {
 public static void main(String[] args)
 {
-	int []a= {1,2,3,4,1,2};
+	int []a= {10,20,30,40,50};
+	int sum=50;
 	for(int i=0;i<a.length;i++)
-		
 	{
 		for(int j=i+1;j<a.length;j++)
 		{
-		if(a[i]==a[j])
-		{
-				System.out.println(a[i]);
-				return;
-			
-				}
+			if(a[j]==sum-a[i])
+			{
+				System.out.println(a[i]+" "+a[j]);
+			}
 		}
 	}
 }

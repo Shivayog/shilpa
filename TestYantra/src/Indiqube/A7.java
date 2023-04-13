@@ -16,10 +16,10 @@ public class A7
 		{
 		a[i]=Sc.nextInt();
 		}
-//		boolean flag=false;
+		boolean flag=false;
 		for(int i=0;i<n;i++)
 		{
-			boolean flag=true;
+			
 			int b=a[i];
 			for(int j=2;j<b;j++)
 			{
@@ -36,7 +36,10 @@ public class A7
 					System.out.println(b+"prime number");
 			}
 				
-				
+			else
+			{
+				System.out.println(b+"not prime number");
+			}
 		
 		}
 		

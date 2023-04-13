@@ -1,4 +1,4 @@
-package Indiqube;
+package numberprogram;
 
 public class Perfectnumber
 {

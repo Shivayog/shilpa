@@ -10,8 +10,8 @@ public class delete_element_using_collection
 	{
 		String []sArray= {"hi","hello","goodmorning"};
 		 List<String> stringList= new ArrayList(Arrays.asList(sArray));
-		 stringList.remove(2);
-		 stringList.remove("hi");
+//		 stringList.remove(1);
+		 stringList.remove("goodmorning");
 		 System.out.println(stringList);
 	}
 
